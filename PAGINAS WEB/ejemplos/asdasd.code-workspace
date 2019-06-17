@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "/Volumes/Disco2/Prework/prework"
+		},
+		{
+			"path": "/Volumes/Disco2/Prework/javascript"
+		},
+		{
+			"path": "/Volumes/Disco2/Prework/HTML"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "/Volumes/Disco2/Prework/CLASES/clases/CSS/pull&bear"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

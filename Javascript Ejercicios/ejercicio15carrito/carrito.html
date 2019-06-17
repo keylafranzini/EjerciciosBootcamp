@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <div class="container">
+        <section class="resumen-compra">
+            <h1 class="resumen-compra__titulo">Resumen de la compra</h1>
+        </section>
+
+        <section class="formulario">
+                <form class="formulario-input">
+                        <input class="formulario-input__prod" type="text" placeholder="Producto" id="producto">
+                    <input class="formulario-input__img-prod" type="text" placeholder="imgProducto" id="imgproducto">
+                    <input class="formulario-input__can" type="text" placeholder="Cantidad" id="cantidad">
+                    <input class="formulario-input__prec" type="text" placeholder="Precio" id="precio">
+                    <button class="formulario-input__button" type="button" onclick="crearCarrito()">Total</button>
+                </form>
+        </section>
+    </div>
+<script src="./script.js"></script>      
+</body>
+</html>
