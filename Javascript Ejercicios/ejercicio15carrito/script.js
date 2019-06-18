@@ -1,41 +1,82 @@
-function crearCarrito(){
-    var carrito = document.querySelector(".resumen-compra");
-    var newElem = document.createElement("article");
+var carrito = [];
 
-    var productoImagen = document.createElement("img");
-    var productoValue = document.getElementById("producto").value;
-    productoImagen.src = productoValue;
-    newElem.appendChild(productoImagen);
-    carrito.appendChild(newElem);
+var productoEjemplo = {
+    nombre: "Camiseta",
+    cantidad: 3,
+    precio: 10
+};
+
+function crearCarrito(){
+    
+    var producto = document.createElement("article");
+
+    var nombreProducto = document.createElement("p");
+    var nomProductoValue = document.getElementById("producto").value;
+    nombreProducto.src = nomProductoValue;
+    producto.appendChild(nombreProducto);
+    
 
     var imagenProduct = document.createElement("img");
-    var productoValue = document.getElementById("producto").value;
+    var productoValue = document.getElementById("imgproducto").value;
     imagenProduct.src = productoValue;
-    newElem.appendChild(imagenProduct);
-    carrito.appendChild(newElem);
+    producto.appendChild(imagenProduct);
+    
 
     
     var cantidad = document.createElement("p");
     var cantidadValue = document.getElementById("cantidad").value;
     cantidad.innerText = cantidadValue;
-    newElem.style = "font-size: 16px";
-    newElem.appendChild(cantidad);
-    carrito.appendChild(newElem);
+    /* producto.style = "font-size: 16px"; */
+    producto.appendChild(cantidad);
+    
     
     var precio = document.createElement("h2");
     var precioValue = document.getElementById("precio").value;
     precio.innerText = precioValue;
-    newElem.style = "font-size: 25px";
-    newElem.appendChild(precio);
-    carrito.appendChild(newElem);
+    /* producto.style = "font-size: 25px"; */
+    producto.appendChild(precio);
+    
 
+    var cesta = document.querySelector(".resumen-compra");
+    cesta.appendChild(producto);
 
-
-    //almaceno
+    // aqui almaceno
 
     var producto = {
-        nombre: 
+        nombre: nomProductoValue,
+        cantidad: parseInt(cantidadValue),
+        precio: parseFloat(precioValue)
+    };
+
+    carrito.push(producto);
+    console.log(carrito);
+
+    drawTotalProducts();
+    drawTotalPrice();
+
+}
+
+function drawTotalProducts () {
+    let totalNumber = document.querySelector(".total__number");
+
+    let totalProducts = 0;
+    for(let i=0; i<carrito.length; i++) {
+        let producto = carrito[i];
+        totalProducts = totalProducts + producto.cantidad;
     }
 
+    totalNumber.innerText = "Total productos: " + totalProducts;
+}
+
+function drawTotalPrice() {
+    let totalPriceTag = document.querySelector(".total__price");
+
+    let totalPrice = 0;
+    for(let i=0; i<carrito.length; i++) {
+        let producto = carrito[i];
+        totalPrice = totalPrice + (producto.precio * producto.cantidad);
+    }
+
+    totalPriceTag.innerText = "Total precio: " + totalPrice;
 }
 
