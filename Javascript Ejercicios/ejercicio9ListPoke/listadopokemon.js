@@ -54,8 +54,8 @@ miPromesa.then(function(res){
         
         
 
-        let sectionPoke = document.querySelector(".section-poke");
-        sectionPoke.appendChild(section);
+        /*let sectionPoke = document.querySelector(".section-poke");
+        sectionPoke.appendChild(section);*/
 
     });
 
