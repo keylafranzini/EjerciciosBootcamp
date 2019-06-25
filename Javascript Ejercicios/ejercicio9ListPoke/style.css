@@ -1,0 +1,32 @@
+.hidden {
+    display: none;
+}
+
+table {
+    text-align: left;
+}
+
+.main{
+    display: flex;
+} 
+
+.main__pokemons-list{
+    flex: 1;
+    width: 50%;
+    padding: 10px;
+    border-right: 2px solid #000;
+}
+
+.main__pokemon-detail{
+    flex: 1;
+    width: 50%;
+    padding: 10px;
+} 
+
+p {
+    margin: 5px 0;
+}
+
+h3 {
+    margin: 10px 0;
+}
