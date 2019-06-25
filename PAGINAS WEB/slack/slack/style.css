@@ -1,0 +1,349 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.padre{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.left{
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 104px;
+    padding-top: 8px;
+}
+
+.nav{
+   display: flex; 
+   padding-top: 3px;
+}
+
+.nav li{
+    padding-left: 10px;
+}
+
+.nav a{
+    color: #919090;
+}
+
+.nav a:hover{
+    color: black;
+}
+
+.right{
+   display: flex; 
+   justify-items: flex-end;
+   margin-top: 15px;
+}
+
+.right button{
+    background-color: #4c1548;
+    border: none;
+    font-size: 16px;
+}
+
+.right button:hover{
+    background-color: #3a0933;
+}
+
+.section {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+
+.col-12{
+    margin-top: 30px;
+    justify-content: left;
+}
+
+.col-12 h1{
+    font-size: 70px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    padding-left: 130px;
+}
+
+
+.form-inline button{
+    background-color: #4c1548;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+
+.form-inline p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.container-fluid .row{
+    justify-content: center;
+    
+}
+
+.text2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text2 h2{
+    font-weight: 600;
+}
+
+.col-3{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.col-3 p{
+    padding-top: 20px;
+    color: #919090;
+}
+
+.col-3 h4{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.text3{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+
+}
+
+.text3 h2{
+    font-weight: 600;
+}
+
+.text3 p{
+    font-size: 20px;
+    color: #919090;
+    padding: 30px 140px;
+}
+
+.col {
+    box-shadow: none;
+}
+
+.col a{
+    color: #2c4c93;
+    text-decoration: underline;
+}
+
+.col a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #2c4c93;
+}
+
+.section1{
+    padding-bottom: 50px;
+}
+
+.text4{
+    font-size: 20px;
+    padding: 70px 140px;
+}
+
+.text4 a{
+    color: #2c4c93;
+}
+
+.text4 span{
+    padding-left: 5px;
+}
+
+.section2{
+    background-color: #f5f5f5;
+    max-width: 100%;
+    height: 1000px;
+}
+
+.text2 p{
+    font-size: 
+}
+
+.tx h2{
+    padding-top: 80px;
+}
+
+.tx p{
+    font-size: 18px;
+    color: #919090;
+    padding: 10px 220px;
+}
+
+.col-3 .row{
+    padding-top: 20px; 
+}
+
+.img1 {
+    filter: grayscale(100%);
+}
+
+.img1:hover{
+    filter: none;
+}
+
+.row1:hover{
+    text-decoration: none; 
+}
+
+.row1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.arrow{
+    width: 22px;
+}
+
+.row2{
+    padding-top: 80px;
+}
+
+.section3{
+    background-image: url(https://a.slack-edge.com/16749/marketing/img/accent/bg_halftone_black_30p.png);
+    background-color: #4c1548;
+    max-width: 100%;
+    height: 400px;
+}
+
+.row3{
+    display: flex;
+    justify-content: center;
+}
+
+.row3 h2{
+    padding-top: 150px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 600;
+}
+
+.row3 button{
+    background-color: white;
+    border: none;
+    color: #4c1548;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+
+.row3 .btn-primary:hover{
+    color: white;
+    border: 1px solid #3a0933;
+}
+
+.footer{
+    height: 300px;
+}
+
+.list{
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.footer-logo img{
+    width: 56px;
+}
+
+.col-12 a{
+    line-height: 30px;
+    color: #919090;
+    font-size: 14px;
+}
+
+.row-nav{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.row-nav p{
+    font-weight: 600;
+}
+
+
+.row-footer{
+    background-color: #f5f5f5;
+    height: 100px;
+}
+
+.inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inside ul li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+.inside a{
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.inside a:hover{
+    color: #2c4c93;
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    color: gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.fa-twitter{
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.fa-twitter:hover{
+    color: #2c4c93;
+}
+
+.fa-facebook-square{
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.fa-facebook-square:hover{
+    color: #2c4c93;
+}
+
+.fa-youtube{
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.fa-youtube:hover{
+    color: #2c4c93;
+}
+
+.fa-linkedin{
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.fa-linkedin:hover{
+    color: #2c4c93;
+}
