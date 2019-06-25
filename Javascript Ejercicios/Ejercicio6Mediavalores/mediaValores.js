@@ -1,8 +1,8 @@
-var datos = “80:70:90:100”;
+var datos = "80:70:90:100";
 
    function CalcularMediaArray(datosArray) {
 
-       var numeros = datosArray.split(‘:’);
+       var numeros = datosArray.split(':');
 
 
        var sum = 0;
