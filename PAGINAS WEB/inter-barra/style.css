@@ -1,0 +1,28 @@
+.bar{
+    background-color: bisque;
+    width: 350px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+
+.color{ 
+    background-color: #8ccfed;
+    width: 0;
+    height: 20px;
+    transition-delay: 400ms;
+    transition-duration: 2s;
+    transition-property: padding-left;
+    transition-timing-function: ease-in-out;
+}
+
+.color-rectangulo{
+    padding-left: 300px;
+    height: 20px;
+}
+
+.fa-check{
+    left: 330px;
+    top: 10px;
+    position: absolute;
+}
