@@ -1,0 +1,53 @@
+.noticia {
+  padding: 20px;
+}
+
+.noticia-image {
+  width: 400px;
+  height: 300px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.padre1 {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.padre2 {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.article {
+  padding: 20px;
+}
+
+.form1 {
+  display: block;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+
+.form2 {
+  display: block;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+
+.form3 {
+  display: block;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+
+.form4 {
+  display: block;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */
