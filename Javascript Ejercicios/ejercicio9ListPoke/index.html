@@ -4,25 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./pokemons.js"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Pokemon</title>
 </head>
 <body>
-        <table>
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>url</th>
+        <div class="hidden" id="templates">
+                
+                <table>
+                    <tr id="pokemonRowTemplate">
+                        <td class="pokemon-name"></td>
+                        <td class="pokemon-url"></td>
+                        <td class="pokemon-detail">
+                            <button class="pokemon-detail__button">Ver</button>
+                        </td>
                     </tr>
-                </thead>
-                <tbody class="table-body">
-        
-                </tbody>
-                <section class="section-poke">
+                </table>
+                
+            </div>
+            
+            
+            <div class="main">
+            
+                <div class="main__pokemons-list">
+            
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Detalle</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pokemonsTableBody">
+                         
+                        </tbody>
+                    </table>
+            
+                </div>
+                <div class="main__pokemon-detail">
+            
+                </div>
+            
+            </div>
 
-                </section>
-            </table>
 
-
-<script src="listadopokemon.js"></script>   
 </body>
 </html>
